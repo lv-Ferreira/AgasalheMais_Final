@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ac_cadastro_senha">
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_width="349dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/Senha1"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txt_Concluir"
+        app:layout_constraintStart_toStartOf="@+id/txt_Concluir"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Senha1" />
+
+    <Button
+        android:id="@+id/btn_avancar"
+        android:layout_width="346dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:background="#3897f0"
+        android:text="@string/Cadastrar"
+        app:layout_constraintEnd_toEndOf="@+id/edit_senha"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/edit_senha"
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
+
+    <TextView
+        android:id="@+id/txt_Senha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/adicionarSenha"
+        app:layout_constraintEnd_toEndOf="@+id/txt_Concluir"
+        app:layout_constraintStart_toStartOf="@+id/txt_Concluir"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Concluir" />
+
+    <TextView
+        android:id="@+id/txt_Concluir"
+        android:layout_width="356dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/concluirCadastro"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/concluirCadastro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

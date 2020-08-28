@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatec.agasalhemais">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ac_doacao_efetuada"></activity>
+        <activity android:name=".ac_item_doacao" />
+        <activity
+            android:name=".ac_confirmar_doacao"
+            android:label="@string/title_activity_ac_confirmar_doacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_principal"
+            android:label="@string/title_activity_ac_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ac_login_entrada" />
+        <activity android:name=".ac_cadastro_senha" />
+        <activity android:name=".ac_cadastro_email" />
+        <activity android:name=".ac_cadastro" />
+        <activity android:name=".ac_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

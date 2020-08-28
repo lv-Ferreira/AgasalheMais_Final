@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ac_login_entrada">
+
+
+    <TextView
+        android:id="@+id/txt_entrar"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/entrar"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/txt_entrar"
+        app:layout_constraintStart_toStartOf="@+id/txt_entrar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_entrar" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/Senha1"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/edit_email"
+        app:layout_constraintStart_toStartOf="@+id/edit_email"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="#3897f0"
+        android:text="@string/entrar"
+        app:layout_constraintEnd_toEndOf="@+id/edit_senha"
+        app:layout_constraintStart_toStartOf="@+id/edit_senha"
+        app:layout_constraintTop_toBottomOf="@+id/txt_esqueceu" />
+
+    <TextView
+        android:id="@+id/txt_esqueceu"
+        android:layout_width="346dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/esqueceuSenha"
+        app:layout_constraintEnd_toEndOf="@+id/edit_senha"
+        app:layout_constraintStart_toStartOf="@+id/edit_senha"
+        app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
+</androidx.constraintlayout.widget.ConstraintLayout>

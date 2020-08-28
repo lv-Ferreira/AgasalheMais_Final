@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AgasalheMais</string>
+    <string name="txt_statusCon">...</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="escolherUsuario">Escolher nome de usuário</string>
+    <string name="alterarDepois">Você poderá alterá-lo depois.</string>
+    <string name="nomeUsuario">Nome de usuário</string>
+    <string name="avancar">Avancar</string>
+    <string name="avancçar">Avançar</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="adcionaremail">Adicionar Email</string>
+    <string name="adicionaremail1">Adicionar email</string>
+    <string name="email">E-mail</string>
+    <string name="adicionarSenha">Adicionar senha</string>
+    <string name="senha">senha</string>
+    <string name="Senha1">Senha</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="concluirCadastro">Concluir cadastro</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueceuSenha">Esqueceu sua senha?</string>
+    <string name="title_activity_ac_principal">ac_principal</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_ac_confirmar_doacao">ac_confirmar_doacao</string>
+    <string name="maisinfo">Mais informações</string>
+    <string name="produto">Produto:</string>
+    <string name="varia_o">Variação:</string>
+    <string name="solicitado_por">Solicitado por:</string>
+    <string name="descri_o">Descrição:</string>
+    <string name="doar">Doar</string>
+    <string name="termos_de_doa_o">Termos de Doação</string>
+    <string name="fdsenderc">Praça Gáspar Ricardo, 1 - Centro, Itapetininga - SP, 18200-202</string>
+    <string name="tel">(15) 3271-1801</string>
+    <string name="horariofunc">Horario: Segunda a Sexta - 8:00 as 18:00</string>
+    <string name="obrigado_pela_doa_o">Obrigado pela doação :)</string>
+    <string name="juntos_vamos_melhorar_a_nossa_comunidade">Juntos vamos melhorar a nossa comunidade!</string>
+    <string name="anote_o_seu_ticket">Anote o seu Ticket</string>
+    <string name="o_ticket_ajuda_a_identificar_o_pedido_no_sistema_para_facilitar_anote_o_n_do_ticket_e_apresente_na_entrega_do_produto">O ticket ajuda a identificar o pedido no sistema, para facilitar anote o nº do ticket e apresente na entrega do produto.</string>
+    <string name="_0">0</string>
+</resources>

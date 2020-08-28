@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ac_item_doacao">
+
+    <TextView
+        android:id="@+id/txt_confDados"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/maisinfo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toTopOf="@+id/txt_confDados"
+        app:layout_constraintEnd_toEndOf="@+id/txt_confDados"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/txt_confDados"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/produto"
+        app:layout_constraintEnd_toEndOf="@+id/txt_confDados"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/txt_confDados"
+        app:layout_constraintTop_toBottomOf="@+id/txt_confDados" />
+
+    <TextView
+        android:id="@+id/txt_variacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/varia_o"
+        app:layout_constraintEnd_toEndOf="@+id/txt_item"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_item"
+        app:layout_constraintTop_toBottomOf="@+id/txt_item" />
+
+    <TextView
+        android:id="@+id/txt_solicitado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/solicitado_por"
+        app:layout_constraintEnd_toEndOf="@+id/txt_variacao"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_variacao"
+        app:layout_constraintTop_toBottomOf="@+id/txt_variacao" />
+
+    <TextView
+        android:id="@+id/txt_descricao"
+        android:layout_width="358dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/descri_o"
+        app:layout_constraintEnd_toEndOf="@+id/txt_solicitado"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_solicitado"
+        app:layout_constraintTop_toBottomOf="@+id/txt_solicitado" />
+
+    <Button
+        android:id="@+id/btn_doar"
+        android:textColor="#ffffff"
+        android:layout_width="371dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="#3897f0"
+        android:text="@string/doar"
+        app:layout_constraintEnd_toEndOf="@+id/txt_confDados"
+        app:layout_constraintStart_toStartOf="@+id/txt_confDados"
+        app:layout_constraintTop_toBottomOf="@+id/txt_descricao" />
+
+    <TextView
+        android:id="@+id/txt_termos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/termos_de_doa_o"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_termosDoacao"
+        app:layout_constraintEnd_toEndOf="@+id/btn_doar"
+        app:layout_constraintStart_toStartOf="@+id/btn_doar" />
+
+    <TextView
+        android:id="@+id/txt_termosDoacao"
+        android:layout_width="395dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/txt_endereco"
+        app:layout_constraintEnd_toEndOf="@+id/txt_termos"
+        app:layout_constraintStart_toStartOf="@+id/txt_termos" />
+
+    <TextView
+        android:id="@+id/txt_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fdsenderc"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_telefone"
+        app:layout_constraintEnd_toEndOf="@+id/txt_horario"
+        app:layout_constraintStart_toStartOf="@+id/txt_horario" />
+
+    <TextView
+        android:id="@+id/txt_telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_horario"
+        app:layout_constraintEnd_toEndOf="@+id/txt_horario"
+        app:layout_constraintStart_toStartOf="@+id/txt_horario" />
+
+    <TextView
+        android:id="@+id/txt_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horariofunc"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_termosDoacao"
+        app:layout_constraintStart_toStartOf="@+id/txt_termosDoacao" />
+</androidx.constraintlayout.widget.ConstraintLayout>
